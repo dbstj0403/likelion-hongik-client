@@ -38,7 +38,6 @@ export function Header() {
     window.location.replace(`/${page}`);
   };
 
-  // 커뮤니티 & 로그인 주석 처리
   const NavPC = () => {
     return (
       <>
@@ -66,10 +65,10 @@ export function Header() {
           <HeaderButton onClick={onClickHeaderButton} name="recruit">
             지원하기
           </HeaderButton>
-          {/* <HeaderButton onClick={onClickHeaderButton} name="community/BOARD">
+          <HeaderButton onClick={onClickHeaderButton} name="community/BOARD">
             커뮤니티
           </HeaderButton>
-          <ProfileButton /> */}
+          <ProfileButton />
         </Row>
       </Wrapper>
     );
@@ -81,7 +80,7 @@ export function Header() {
         <MobileWrapper isMenu={isMenu}>
           <Logo type="mobile" />
           <Row alignItems="center">
-            {/* {!isMenu && <ProfileButton />} */}
+            {!isMenu && <ProfileButton />}
             <MenuButton onClick={onClickMenu}>{isMenu ? <MenuClose /> : <Menu />}</MenuButton>
           </Row>
         </MobileWrapper>
