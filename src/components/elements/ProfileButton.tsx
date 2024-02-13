@@ -28,7 +28,7 @@ export function ProfileButton() {
   return (
     <div style={{ position: "relative", display: "flex", justifyContent: "center" }}>
       <Wrapper
-        onClick={onClick}
+        //onClick={onClick}
         onMouseOver={() => {
           setDropDown(!isDropDown);
         }}
