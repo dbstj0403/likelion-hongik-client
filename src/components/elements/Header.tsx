@@ -47,9 +47,7 @@ export function Header() {
             <HeaderButton onClick={onClickHeaderButton} name="recruit">
               지원하기
             </HeaderButton>
-            <HeaderButton onClick={onClickHeaderButton} name="community/BOARD">
-              커뮤니티
-            </HeaderButton>
+            <HeaderButton name="community/BOARD">커뮤니티</HeaderButton>
             <ProfileButton />
           </Row>
         </Wrapper>
@@ -65,9 +63,7 @@ export function Header() {
           <HeaderButton onClick={onClickHeaderButton} name="recruit">
             지원하기
           </HeaderButton>
-          <HeaderButton onClick={onClickHeaderButton} name="community/BOARD">
-            커뮤니티
-          </HeaderButton>
+          <HeaderButton name="community/BOARD">커뮤니티</HeaderButton>
           <ProfileButton />
         </Row>
       </Wrapper>
@@ -92,15 +88,9 @@ export function Header() {
             <HeaderMobileButton onClick={onClickHeaderButton} name="recruit">
               지원하기
             </HeaderMobileButton>
-            <HeaderMobileButton onClick={onClickHeaderButton} name="community/BOARD">
-              커뮤니티
-            </HeaderMobileButton>
-            <HeaderMobileButton onClick={onClickHeaderButton} name="mypage/post">
-              마이페이지
-            </HeaderMobileButton>
-            <HeaderMobileButton onClick={onClickHeaderButton} name="login">
-              {isLoggedIn ? "로그아웃" : "로그인"}
-            </HeaderMobileButton>
+            <HeaderMobileButton name="community/BOARD">커뮤니티</HeaderMobileButton>
+            <HeaderMobileButton name="mypage/post">마이페이지</HeaderMobileButton>
+            <HeaderMobileButton name="login">{isLoggedIn ? "로그아웃" : "로그인"}</HeaderMobileButton>
           </ToggleWrapper>
         )}
       </>
