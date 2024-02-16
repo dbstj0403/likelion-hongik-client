@@ -30,9 +30,9 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/recruit" element={<RecruitPage />} />
-            <Route path="/login" element={<LoginPage />} />
+            {/* <Route path="/login" element={<LoginPage />} /> */}
             <Route path="/ing" element={<Ing />} />
-            <Route path="/community/:categoryName" element={<CommunityPage />} />
+            {/* <Route path="/community/:categoryName" element={<CommunityPage />} />
             <Route path="/login/detail" element={<LoginDetailPage />} />
             <Route path="/login/complete" element={<CompletePage />} />
             <Route path="/community/post/:id" element={<PostPage />} />
@@ -42,7 +42,7 @@ function App() {
             <Route path="/myPage/like" element={<MyLikePage />} />
             <Route path="/myPage/edit" element={<InfoEditPage />} />
             <Route path="/write/" element={<WritingPage />} />
-            <Route path="/community/post/edit/:id" element={<WritingPage />} />
+            <Route path="/community/post/edit/:id" element={<WritingPage />} /> */}
             <Route path="/ing" element={<Ing />} />
           </Routes>
         </RecoilRoot>
