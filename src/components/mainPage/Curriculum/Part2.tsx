@@ -37,6 +37,13 @@ const Part2 = () => {
             발표 및 매칭
           </S.Text>
         </S.Dot5>
+        <S.Dot6>
+          <S.Date>6차 세션</S.Date>
+          <S.Text>
+            기획/디자인 발표
+            <br />및 전체 팀 빌딩
+          </S.Text>
+        </S.Dot6>
       </S.BarContainer>
     </S.Box>
   );

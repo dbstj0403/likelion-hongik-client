@@ -1,4 +1,4 @@
-import main_main from "../images/main_main.png";
+import main_mainimg from "../images/main_mainimg.jpg";
 import styled from "styled-components";
 import { Fade } from "react-awesome-reveal";
 
@@ -25,7 +25,7 @@ export function Main() {
   );
 }
 const MainContainer = styled.div`
-  background-image: url(${main_main});
+  background-image: url(${main_mainimg});
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: overlay;
   background-size: cover;
