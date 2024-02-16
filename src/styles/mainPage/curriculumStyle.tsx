@@ -34,7 +34,7 @@ export const PartName = styled.h2`
 `;
 
 export const BarContainer = styled.div`
-  width: 1080x;
+  width: 1240px;
   height: 20px;
   background: rgba(51, 51, 51, 0.8);
   border-radius: 30px;
@@ -61,7 +61,7 @@ export const Dot1 = styled.div`
 
 export const Dot2 = styled(Dot1)`
   position: absolute;
-  left: 270px;
+  left: 220px;
   @media (max-width: 768px) {
     top: 70px;
     left: 0px;
@@ -73,7 +73,7 @@ export const Dot2 = styled(Dot1)`
 
 export const Dot3 = styled(Dot2)`
   position: absolute;
-  left: 540px;
+  left: 440px;
   @media (max-width: 768px) {
     top: 140px;
     left: 0px;
@@ -85,7 +85,7 @@ export const Dot3 = styled(Dot2)`
 
 export const Dot4 = styled(Dot3)`
   position: absolute;
-  left: 810px;
+  left: 660px;
   @media (max-width: 768px) {
     top: 210px;
     left: 0px;
@@ -97,13 +97,25 @@ export const Dot4 = styled(Dot3)`
 
 export const Dot5 = styled(Dot4)`
   position: absolute;
-  left: 1080px;
+  left: 880px;
   @media (max-width: 768px) {
     top: 280px;
     left: 0px;
   }
   @media (min-width: 768px) and (max-width: 1024px) {
     left: 480px;
+  }
+`;
+
+export const Dot6 = styled(Dot5)`
+  position: absolute;
+  left: 1100px;
+  @media (max-width: 768px) {
+    top: 350px;
+    left: 0px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    left: 600px;
   }
 `;
 

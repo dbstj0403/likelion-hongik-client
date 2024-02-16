@@ -30,10 +30,13 @@ const Part3 = () => {
           <S.Date>5차 세션</S.Date>
           <S.Text>배포</S.Text>
         </S.Dot5>
-        {/* <S.Dot6>
+        <S.Dot6>
           <S.Date>6차 세션</S.Date>
-          <S.Text>Django rest API / MySQL 연동</S.Text>
-        </S.Dot6> */}
+          <S.Text>
+            기획/디자인 발표
+            <br />및 전체 팀 빌딩
+          </S.Text>
+        </S.Dot6>
       </S.BarContainer>
     </S.Box>
   );
