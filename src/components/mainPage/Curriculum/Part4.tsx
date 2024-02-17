@@ -11,7 +11,7 @@ const Part3 = () => {
           <S.Text>
             Python
             <br />
-            Djando 프로젝트 공유
+            Django 프로젝트 공유
           </S.Text>
         </S.Dot1>
         <S.Dot2>
