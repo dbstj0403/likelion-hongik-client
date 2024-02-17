@@ -12,7 +12,7 @@ export function InfoEditPage() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section>
         <Diving>
           <ForDiv>
@@ -20,7 +20,7 @@ export function InfoEditPage() {
             <EditPart />
           </ForDiv>
         </Diving>
-      </Section>
+      </Section> */}
     </>
   );
 }

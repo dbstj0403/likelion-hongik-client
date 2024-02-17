@@ -8,13 +8,13 @@ import { Section } from "../../components/elements/Wrapper";
 export function LoginDetailPage() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section>
         <Container>
           <LoginDetailInfo />
         </Container>
         <Footer />
-      </Section>
+      </Section> */}
     </>
   );
 }

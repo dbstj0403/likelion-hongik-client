@@ -8,13 +8,13 @@ import Footer from "../../components/elements/Footer";
 export function CompletePage() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section>
         <Container>
           <Complete />
         </Container>
         <Footer style={{ marginTop: "131px" }} />
-      </Section>
+      </Section> */}
     </>
   );
 }

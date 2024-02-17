@@ -30,19 +30,23 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/recruit" element={<RecruitPage />} />
-            {/* <Route path="/login" element={<LoginPage />} /> */}
             <Route path="/ing" element={<Ing />} />
-            {/* <Route path="/community/:categoryName" element={<CommunityPage />} />
+
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/login/detail" element={<LoginDetailPage />} />
             <Route path="/login/complete" element={<CompletePage />} />
+
+            <Route path="/community/:categoryName" element={<CommunityPage />} />
             <Route path="/community/post/:id" element={<PostPage />} />
+            <Route path="/community/post/edit/:id" element={<WritingPage />} />
+
             <Route path="/myPage" element={<MyPage />} />
             <Route path="/myPage/post" element={<MyPostPage />} />
             <Route path="/myPage/reply" element={<MyReplyPage />} />
             <Route path="/myPage/like" element={<MyLikePage />} />
             <Route path="/myPage/edit" element={<InfoEditPage />} />
             <Route path="/write/" element={<WritingPage />} />
-            <Route path="/community/post/edit/:id" element={<WritingPage />} /> */}
+
             <Route path="/ing" element={<Ing />} />
           </Routes>
         </RecoilRoot>
