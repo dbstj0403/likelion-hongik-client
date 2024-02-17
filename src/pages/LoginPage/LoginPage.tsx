@@ -8,13 +8,13 @@ import { Section } from "./../../components/elements/Wrapper";
 export function LoginPage() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section>
         <Container>
           <SocialLogin />
         </Container>
         <Footer style={{ marginTop: "317px" }} />
-      </Section>
+      </Section> */}
     </>
   );
 }

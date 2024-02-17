@@ -57,15 +57,14 @@ export function MyReplyPage() {
         setTotalPages(response.data.totalPages);
       })
       .catch(function (error) {
-        console.log(error);
-        alert("🦁 로그인이 필요한 기능입니다 🦁");
-        navigate("/login");
+        // alert("🦁 로그인이 필요한 기능입니다 🦁");
+        // navigate("/login");
       });
   };
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section>
         <S.MyPostPageContainer>
           {isTablet ? <MyPageMobileNav /> : <MyPageNav />}
@@ -89,7 +88,7 @@ export function MyReplyPage() {
             <MyPagination totalPages={totalPages} />
           </S.MyPostBoxContainer>
         </S.MyPostPageContainer>
-      </Section>
+      </Section> */}
     </>
   );
 }

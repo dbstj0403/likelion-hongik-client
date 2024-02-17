@@ -22,7 +22,7 @@ export function PostPage() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       {isPC && board && (
         <Section style={{ padding: "0 340px", display: "flex", justifyContent: "center" }}>
           <Column style={{ marginTop: "100px" }}>
@@ -48,7 +48,7 @@ export function PostPage() {
             <CommentsList {...board.comments} />
           </Column>
         </Section>
-      )}
+      )} */}
     </>
   );
 }

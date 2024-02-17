@@ -22,7 +22,7 @@ export function CommunityPage() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section style={isModal ? { height: "95vh", overflowY: "hidden", margin: "0" } : {}}>
         <Wrapper>
           {categoryName === "PROJECT" && isMobile && <ProjectInfo />}
@@ -36,7 +36,7 @@ export function CommunityPage() {
           </Container>
         </Wrapper>
         <Footer style={{ position: "absolute" }} />
-      </Section>
+      </Section> */}
     </>
   );
 }

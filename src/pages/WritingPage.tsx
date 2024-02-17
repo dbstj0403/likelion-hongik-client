@@ -24,7 +24,7 @@ export function WritingPage() {
 
   return (
     <>
-      <Header />
+      {/* <Header />
       <Section
         style={{
           display: "flex",
@@ -45,7 +45,7 @@ export function WritingPage() {
           {isCancelButtonClicked && <ConfirmationPopup />}
           {isThumbnailSetButtonClicked && <ThumbnailUploadPopup />}
         </div>
-      </Section>
+      </Section> */}
     </>
   );
 }
