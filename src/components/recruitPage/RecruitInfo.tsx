@@ -6,7 +6,7 @@ export function RecruitInfo() {
   const [regDate, setRegDate] = useState(false);
 
   const gotoReg = () => {
-    if (regDate === false) {
+    if (regDate === true) {
       alert("🦁 지원 기간이 아닙니다 🦁");
     } else {
       window.open("https://forms.gle/hinV9VP6Wnsezq2V8");

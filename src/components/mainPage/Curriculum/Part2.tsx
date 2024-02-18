@@ -32,9 +32,9 @@ const Part2 = () => {
         <S.Dot5>
           <S.Date>5차 세션</S.Date>
           <S.Text>
-            기획/디자인
+            기획&디자인
             <br />
-            발표 및 매칭
+            과제 피드백
           </S.Text>
         </S.Dot5>
         <S.Dot6>
